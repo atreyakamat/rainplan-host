@@ -3,16 +3,16 @@
 RainPlan Host App repository.
 
 ## Host App
-The Host App is scaffolded in `/home/runner/work/rainplan-host/rainplan-host/host-app` using Expo + React Native (TypeScript).
+The Host App is scaffolded in `./host-app` using Expo + React Native (TypeScript).
 
 ### Run locally
 ```bash
-cd /home/runner/work/rainplan-host/rainplan-host/host-app
+cd host-app
 npm install
 npm run start
 ```
 
 ## Product Documents
-- `/home/runner/work/rainplan-host/rainplan-host/HOST_APP_PRD.md`
-- `/home/runner/work/rainplan-host/rainplan-host/HOST_APP_DESIGN_DOC.md`
-- `/home/runner/work/rainplan-host/rainplan-host/HOST_APP_TECH_STACK.md`
+- `./HOST_APP_PRD.md`
+- `./HOST_APP_DESIGN_DOC.md`
+- `./HOST_APP_TECH_STACK.md`

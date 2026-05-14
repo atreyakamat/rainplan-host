@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { useMemo, useState } from 'react';
+import { useState } from 'react';
 import {
   Pressable,
   SafeAreaView,
@@ -65,9 +65,9 @@ const earnings = {
 export default function App() {
   const [isAvailableToday, setIsAvailableToday] = useState(true);
 
-  const todayEarnings = useMemo(
-    () => todayBookings.reduce((total, booking) => total + booking.amount, 0),
-    [],
+  const todayEarnings = todayBookings.reduce(
+    (total, booking) => total + booking.amount,
+    0,
   );
 
   return (
